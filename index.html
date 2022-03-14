@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create Account</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/matheus.png" type="image/x-icon">
+    </head>
+
+<body>
+    <main>
+        <h1>Create Account</h1>
+        <div class="social-media">
+            <a href="#"><img src="images/google.png" alt="Log In With Google"></a>
+            <a href="#"><img src="images/facebook.png" alt="Log In With Facebook"></a>
+            <a href="#"><img src="images/linkedin.png" alt="Log In With Linkedin"></a>
+        </div>
+
+        <div class="arternative">
+            <span>OR</span>
+        </div>
+
+        <form action="#userregistred" method="POST">
+            <label for="name">
+                <span>Name</span>
+                <input type="text" id="name" name="name" required>
+            </label>
+
+            <label for="email">
+                <span>E-mail</span>
+                <input type="email" id="email" name="email" required>
+            </label>
+
+            <label for="password">
+                <span>Password</span>
+                <input type="password" id="password" name="password" required>
+            </label>
+
+            <input type="submit" value="Create Account" class="btn">
+        </form>
+    </main>
+
+    <section class="image">
+        <img src="images/mobile.svg" alt="#">
+        <div class="circle"></div>
+    </section>
+</body>
+</html>

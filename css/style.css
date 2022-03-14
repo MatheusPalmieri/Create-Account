@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+body{
+    background-color: #18142E;
+    color: white;
+    display: flex;
+    min-height: 100%;
+}
+
+/* Icons */
+
+main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    color: #9A5CE0;
+    font-size: 35px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+main .social-media{
+    display: flex;
+    align-content: center;
+}
+
+main .social-media a{
+    text-decoration: none;
+}
+
+main .social-media img{
+    width: 30px;
+    margin-left: 20px;
+}
+
+main .social-media a:first-child img{
+    margin-left: 0;
+}
+
+/* Arternative */
+
+.arternative{
+    margin-top: 30px;
+}
+
+.arternative span{
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+.arternative span::before, .arternative span::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.arternative span::after{
+    left: 50px;
+}
+
+/* Form */
+
+main form{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label{
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span{
+    margin-top: 20px;
+}
+
+main form input{
+    margin-top: 10px;
+    background-color: #161923;
+    width: 280px;
+    height: 38px;
+    padding: 0 8px;
+    outline: none;
+    color: #D0D3D9;
+    font-size: 1rem;
+    border: 1px solid #090a0e;
+    border-radius: .6em;
+}
+
+/* Button Sign Up */
+
+.btn{
+    cursor: pointer;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #6C63FF;
+    font-size: 1.1em;
+    transition: .4s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #5952d4;
+}
+
+/* Image */
+
+.image{
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.image img{
+    width: 90%;
+} 
+
+.circle{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #E8CBC0, #636FA4);
+    clip-path: circle(40% at right 80%);
+    z-index: -1;
+}
+
