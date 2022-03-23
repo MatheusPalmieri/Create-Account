@@ -2,7 +2,7 @@
 
 <img src="images/imagem.png">
 
-<a href="https://createaccount-mathueuspalmieri.netlify.app/" target="_blank">Site do Projeto</a>
+<a href="https://createaccount-matheuspalmieri.netlify.app//" target="_blank">Site do Projeto</a>
 
 ---
 <a href="https://github.com/MatheusPalmieri" target="_blank">GitHub</a>
