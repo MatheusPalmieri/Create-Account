@@ -1,9 +1,3 @@
-### Create Account
-
-<img src="images/imagem.png">
-
-<a href="https://createaccount-matheuspalmieri.netlify.app//" target="_blank">Site do Projeto</a>
-
 <!-- Título -->
 
 <h1 align="center">Create Account</h1>
